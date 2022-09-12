@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  height: 100vh;
+  position: fixed;
+  flex-direction: column;
+}
+
+main {
+  flex-direction: column;
+}
+
+.background {
+  position: absolute;
+  background: #efefef;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+}
+
+.lateralCinza {
+  background: linear-gradient(
+    174.44deg,
+    rgba(11, 11, 11, 0.95) -0.36%,
+    rgba(13, 13, 13, 0.855) 104.09%
+  );
+  height: 100%;
+  width: 616px;
+  position: absolute;
+  z-index: -1;
+}
+
+.divLogo {
+  width: 144px;
+  display: flex;
+}
+
+.logo {
+  margin-left: 20%;
+  margin-top: -30%;
+}
+
+header {
+  display: flex;
+  flex-direction: inline;
+  height: 160px;
+  width: 100%;
+}
+
+.navbar {
+  padding-top: 2%;
+  flex-direction: inline;
+  display: flex;
+  align-items: baseline;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.nomeMen {
+  padding-left: 40%;
+  padding-right: 75px;
+}
+
+.nomeWomen {
+  padding-right: 74px;
+}
+
+.nomeKid {
+  padding-right: 66px;
+}
+
+.setaBaixo {
+  position: absolute;
+}
+
+.tenis {
+  z-index: 1;
+  margin-left: 12%;
+  width: 660px;
+}
+
+.vetor {
+  background: linear-gradient(
+    174.44deg,
+    rgba(11, 11, 11, 0.95) -0.36%,
+    rgba(13, 13, 13, 0.855) 104.09%
+  );
+  margin-top: 10px;
+  border-radius: 40px;
+  height: 40%;
+  margin-right: 6%;
+}
+
+.bordaTenis {
+  margin-left: 15%;
+  width: 550px;
+  height: 550px;
+  background: linear-gradient(179.96deg, #9c0610 0.04%, #cf5c55 99.96%);
+  box-shadow: 73px 8px 38px -10px rgba(189, 63, 61, 0.42);
+  border-radius: 275px;
+  position: absolute;
+  z-index: -1;
+}
+
+.nomeJordan {
+  margin-top: 3%;
+  left: 5%;
+  position: relative;
+  width: 100%;
+  font-size: 1em;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0.34em;
+  font-weight: 400;
+}
+
+.divAir {
+  width: 560px;
+}
+.nomeAir {
+  top: 37%;
+  left: 51%;
+  position: absolute;
+  width: 500px;
+  font-size: 4em;
+  font-weight: 700;
+  letter-spacing: 0.32em;
+}
+
+.divDescricao {
+  width: 600px;
+}
+
+.descricao {
+  padding-left: 50%;
+  padding-right: 25%;
+  position: absolute;
+  left: 1%;
+  top: 47%;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #585858;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  background: black;
+  width: 280px;
+  height: 80px;
+  border-radius: 70px;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 00.32em;
+  font-weight: 400;
+}
+
+.itensEsquerda {
+  display: flex;
+}
+
+.barra {
+  position: absolute;
+  height: 25px;
+  width: 40px;
+  left: 92%;
+  top: 95%;
+}
+
+.nikeTransparente {
+  position: absolute;
+  font-size: 280px;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  color: rgba(0, 0, 0, 0.07);
+  top: 80%;
+  left: 33%;
+}
+
+.lateralDireita {
+  color: white;
+  font-size: 1.25em;
+  font-family: 'Gilda Display', serif;
+  margin-top: 2%;
+  left: 3%;
+  position: relative;
+}
+
+.fb {
+  padding-right: 33px;
+  font-family: 'Gilda Display', serif;
+}
+
+.tw {
+  padding-right: 33px;
+  font-family: 'Gilda Display', serif;
+  font-family: 'Gilda Display', serif;
+}
+
+.ins {
+  font-family: 'Gilda Display', serif;
+}
