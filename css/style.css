@@ -1,0 +1,39 @@
+:root {
+  --cinza-medio: #222222;
+  --font: font-family: 'Inter', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #EFEFEF;
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  grid-template-rows: 100px 1fr 50px;
+  padding-left: 66px;
+  padding-right: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  grid-area: main;
+  display: grid;
+  grid-template-areas: 'foto descricao';
+  grid-template-columns: 1fr 2fr;
+  padding-left: 100px;
+}
+
+footer {
+  grid-area: footer;
+  background-color: lightskyblue;
+}

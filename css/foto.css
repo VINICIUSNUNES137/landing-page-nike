@@ -1,0 +1,43 @@
+.foto {
+  grid-area: foto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 250px;
+  top: 200px;
+  
+}
+
+.tenis {
+  height: 600px;
+  z-index: 2;
+}
+
+.fundo-vermelho {
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  background: linear-gradient(179.96deg, #9C0610 0.04%, #CF5C55 99.96%);
+box-shadow: 73px 8px 38px -10px rgba(189, 63, 61, 0.42);
+
+}
+
+.sombra {
+  top: 450px;
+  left: 40px;
+  width: 300px;
+  z-index: 1;
+  height: 150px;
+  border-radius: 50%;
+  background: rgba(11, 11, 11, 0.55);
+  box-shadow: 10px -49px 48px 79px rgba(0, 0, 0, 0.49);
+  transform: rotate(27.74deg);
+  position: absolute;
+
+
+}
+

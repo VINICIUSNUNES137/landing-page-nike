@@ -1,0 +1,5 @@
+.vetor {
+  height: 80px;
+  background-color: var(--cinza-medio);
+  border-radius: 50%;
+}

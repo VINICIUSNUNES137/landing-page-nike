@@ -1,0 +1,8 @@
+.lateralCinza {
+  width: 600px;
+  height: 100%;
+  background-color: var(--cinza-medio);
+  position: absolute;
+  left: -10px;
+  z-index: -3;
+}

@@ -2,63 +2,63 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nike</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navigation.css" />
+    <link rel="stylesheet" href="./css/vetor.css" />
+    <link rel="stylesheet" href="./css/lateral.css" />
+    <link rel="stylesheet" href="./css/foto.css" />
+    <link rel="stylesheet" href="./css/descricao.css" />
+    <link rel="stylesheet" href="./css/social.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/0efc108669.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Nike</title>
   </head>
   <body>
-    <div class="background"></div>
-    <section class="lateralCinza"></section>
+    <div class="lateralCinza"></div>
     <header>
-      <div class="divLogo">
-        <img class="logo" src="./img/logo.png" alt="" />
+      <img src="./img/logoNike.svg" alt="Logo da Nike" class="logo" />
+      <div class="navigation">
+        <p class="men">MEN</p>
+        <p class="women">WOMEN</p>
+        <p class="kid">KID</p>
+        <p class="customize">CUSTOMIZE</p>
       </div>
-      <div class="navbar">
-        <span class="nomeMen"
-          >MEN <img class="setaBaixo" src="./img/seta.png" alt=""
-        /></span>
-        <span class="nomeWomen"
-          >WOMEN <img class="setaBaixo" src="./img/seta.png" alt=""
-        /></span>
-        <span class="nomeKid"
-          >KID <img class="setaBaixo" src="./img/seta.png" alt=""
-        /></span>
-        <span class="nomeCustomize">CUSTOMIZE</span>
-      </div>
-      <img class="vetor" src="./img/vetor.png" alt="" />
+      <img src="./img/vetor.svg" alt="Vetor de um boneco" class="vetor" />
     </header>
     <main>
-      <section class="itensEsquerda">
-        <div class="bordaTenis"></div>
-        <img class="tenis" src="./img/tenis.png" alt="" />
-        <div class="sombreamento"></div>
-        <span class="nomeJordan">Jordan Brand</span>
-        <div class="divAir">
-          <span class="nomeAir">Air Max</span>
-        </div>
-        <div class="divDescricao">
-          <span class="descricao">
-            Relive the moment you made the team with these varsity jacket
-            inspired kicks. Chenille fabric on the Swoosh and classic varsity
-            colors celebrate your journey to greatness—and help you look good
-            along the way.
-          </span>
-        </div>
-        <span class="botao">SHOP NOW</span>
-        <img class="barra" src="./img/barra.png" alt="" />
-        <span class="nikeTransparente">Nike</span>
-      </section>
-      <section class="lateralDireita">
-        <span class="fb">FB</span>
-        <span class="tw">TW</span>
-        <span class="ins">INS</span>
-      </section>
+      <div class="foto">
+        <img src="./img/tenis.svg" alt="" class="tenis" />
+        <div class="fundo-vermelho"></div>
+        <div class="sombra"></div>
+      </div>
+      <div class="descricao">
+        <span class="descricao__nome">Jordan Brand</span>
+        <span class="descricao__titulo">Air Max</span>
+        <span class="descricao__text">
+          Relive the moment you made the team with these varsity jacket inspired
+          kicks. Chenille fabric on the Swoosh and classic varsity colors
+          celebrate your journey to greatness—and help you look good along the
+          way.
+        </span>
+        <a class="descricao__button" href="#">SHOP NOW</a>
+      </div>
     </main>
+    <footer>
+      <div class="social"></div>
+      <span class="social__fb">FB</span>
+      <span class="social__tw">TW</span>
+      <span class="social__ins">INS</span>
+    </footer>
   </body>
 </html>
