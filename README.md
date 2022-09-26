@@ -24,7 +24,6 @@
 - FIGMA
 - FONT-AWESOME
 
----
 
 ## **CONCEITOS APLICADOS**
 
@@ -32,7 +31,6 @@
 - GRID (AREA)
 - CSS PORCIONADO
 
----
 
 ## **AUTOR**
 
