@@ -2,29 +2,28 @@
   grid-area: descricao;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: baseline;
 }
 
-.descricao__nome{
+.descricao__nome {
   display: grid;
   grid-area: descricao-nome;
   place-items: center;
-  transform: translate(-110px, -140px);
   font-size: 1.5em;
   letter-spacing: 0.34em;
   font-weight: 400;
+  transform: translate(10rem, 5rem);
 }
 
-.descricao__titulo{
+.descricao__titulo {
   display: grid;
   grid-area: descricao-titulo;
   place-items: center;
   font-size: 5rem;
   font-weight: 700;
-  transform: translate(0px, -100px);
   letter-spacing: 0.34em;
-
-
+  transform: translate(10rem, 5rem);
 }
 
 .descricao__text {
@@ -32,14 +31,13 @@
   grid-area: descricao-text;
   place-items: center;
   width: 600px;
-  transform: translate(330px, -50px);
   font-size: 1.5em;
   color: #585858;
   letter-spacing: 0.05em;
   font-weight: 400;
-
+  transform: translate(10rem, 6rem);
 }
-.descricao__button{
+.descricao__button {
   display: grid;
   grid-area: description-button;
   place-items: center;
@@ -48,11 +46,9 @@
   border-radius: 40px;
   background-color: black;
   z-index: 5;
-  transform: translate(320px, 0px);
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.34em;
   color: white;
-
-
+  transform: translate(10rem, 8rem);
 }

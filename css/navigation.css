@@ -1,4 +1,25 @@
 .navigation {
-  display: inline-flex;
-  gap: 44px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.men {
+  text-decoration: none;
+  color: black;
+}
+
+.women {
+  text-decoration: none;
+  color: black;
+}
+
+.kid {
+  text-decoration: none;
+  color: black;
+}
+
+.customize {
+  text-decoration: none;
+  color: black;
 }

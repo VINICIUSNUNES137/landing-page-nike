@@ -18,6 +18,12 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/0efc108669.js"
       crossorigin="anonymous"
@@ -29,16 +35,24 @@
     <header>
       <img src="./img/logoNike.svg" alt="Logo da Nike" class="logo" />
       <div class="navigation">
-        <p class="men">MEN</p>
-        <p class="women">WOMEN</p>
-        <p class="kid">KID</p>
-        <p class="customize">CUSTOMIZE</p>
+        <a href="#">
+          <p class="men">MEN <i class="fas fa-chevron-down"></i></p>
+        </a>
+        <a href="#">
+          <p class="women">WOMEN <i class="fas fa-chevron-down"></i></p>
+        </a>
+        <a href="#">
+          <p class="kid">KID <i class="fas fa-chevron-down"></i></p>
+        </a>
+        <a href="#"><p class="customize">CUSTOMIZE</p> </a>
       </div>
-      <img src="./img/vetor.svg" alt="Vetor de um boneco" class="vetor" />
+      <a href="#">
+        <img src="./img/vetor.svg" alt="Vetor de um boneco" class="vetor" />
+      </a>
     </header>
     <main>
       <div class="foto">
-        <img src="./img/tenis.svg" alt="" class="tenis" />
+        <img src="./img/tenis.png" alt="" class="tenis" />
         <div class="fundo-vermelho"></div>
         <div class="sombra"></div>
       </div>
@@ -55,10 +69,17 @@
       </div>
     </main>
     <footer>
-      <div class="social"></div>
-      <span class="social__fb">FB</span>
-      <span class="social__tw">TW</span>
-      <span class="social__ins">INS</span>
+      <div class="social">
+        <span class="social__fb">FB</span>
+        <span class="social__tw">TW</span>
+        <span class="social__ins">INS</span>
+      </div>
+      <div class="nomeNike">Nike</div>
+      <div class="bar">
+        <a class="linkDoBar" href="#">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
     </footer>
   </body>
 </html>

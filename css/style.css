@@ -16,13 +16,15 @@ body {
   padding-right: 22px;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Inter', sans-serif;
+  position: fixed;
 }
 
 header {
   grid-area: header;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  
+  width: 100vw;
 }
 
 main {
@@ -35,5 +37,9 @@ main {
 
 footer {
   grid-area: footer;
-  background-color: lightskyblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
 }

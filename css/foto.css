@@ -5,13 +5,11 @@
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 250px;
-  top: 200px;
-  
+  transform: translate(10%, 10%);
 }
 
 .tenis {
-  height: 600px;
+  height: 65vh;
   z-index: 2;
 }
 
@@ -19,15 +17,14 @@
   position: absolute;
   z-index: 1;
   border-radius: 50%;
-  width: 600px;
-  height: 600px;
-  background: linear-gradient(179.96deg, #9C0610 0.04%, #CF5C55 99.96%);
-box-shadow: 73px 8px 38px -10px rgba(189, 63, 61, 0.42);
-
+  width: 28vw;
+  height: 60vh;
+  background: linear-gradient(179.96deg, #9c0610 0.04%, #cf5c55 99.96%);
+  box-shadow: 73px 8px 38px -10px rgba(189, 63, 61, 0.42);
 }
 
 .sombra {
-  top: 450px;
+  top: 400px;
   left: 40px;
   width: 300px;
   z-index: 1;
@@ -37,7 +34,4 @@ box-shadow: 73px 8px 38px -10px rgba(189, 63, 61, 0.42);
   box-shadow: 10px -49px 48px 79px rgba(0, 0, 0, 0.49);
   transform: rotate(27.74deg);
   position: absolute;
-
-
 }
-
