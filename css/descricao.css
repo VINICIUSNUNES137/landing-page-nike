@@ -13,7 +13,7 @@
   font-size: 1.5em;
   letter-spacing: 0.34em;
   font-weight: 400;
-  transform: translate(10rem, 5rem);
+  transform: translate(20rem, 13rem);
 }
 
 .descricao__titulo {
@@ -23,19 +23,20 @@
   font-size: 5rem;
   font-weight: 700;
   letter-spacing: 0.34em;
-  transform: translate(10rem, 5rem);
+  transform: translate(20rem, 18rem);
 }
 
 .descricao__text {
   display: grid;
   grid-area: descricao-text;
   place-items: center;
-  width: 600px;
+  width: 650px;
   font-size: 1.5em;
   color: #585858;
   letter-spacing: 0.05em;
   font-weight: 400;
-  transform: translate(10rem, 6rem);
+  transform: translate(20.5rem, 19rem);
+  line-height: 143.02%;
 }
 .descricao__button {
   display: grid;
@@ -43,12 +44,17 @@
   place-items: center;
   width: 382px;
   height: 100px;
-  border-radius: 40px;
+  border-radius: 50px;
   background-color: black;
   z-index: 5;
   font-size: 1.5rem;
   font-weight: 400;
   letter-spacing: 0.34em;
   color: white;
-  transform: translate(10rem, 8rem);
+  transform: translate(20rem, 25rem);
+  transition: all 0.5s;
+}
+
+.descricao__button:hover {
+  background-color: #222222;
 }

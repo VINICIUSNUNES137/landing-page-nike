@@ -1,5 +1,5 @@
 .social {
-  width: 150px;
+  width: 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,6 +20,7 @@
   font-weight: 600;
   color: rgba(0, 0, 0, 0.07);
   display: flex;
+  transform: translateX(-20%);
 }
 
 .linkDoBar {
