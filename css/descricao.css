@@ -13,7 +13,7 @@
   font-size: 1.5em;
   letter-spacing: 0.34em;
   font-weight: 400;
-  transform: translate(20rem, 13rem);
+  transform: translate(20rem, 11rem);
 }
 
 .descricao__titulo {
@@ -23,7 +23,7 @@
   font-size: 5rem;
   font-weight: 700;
   letter-spacing: 0.34em;
-  transform: translate(20rem, 18rem);
+  transform: translate(20rem, 16rem);
 }
 
 .descricao__text {
@@ -35,7 +35,7 @@
   color: #585858;
   letter-spacing: 0.05em;
   font-weight: 400;
-  transform: translate(20.5rem, 19rem);
+  transform: translate(20.5rem, 17rem);
   line-height: 143.02%;
 }
 .descricao__button {
@@ -51,7 +51,7 @@
   font-weight: 400;
   letter-spacing: 0.34em;
   color: white;
-  transform: translate(20rem, 25rem);
+  transform: translate(20rem, 23rem);
   transition: all 0.5s;
 }
 
