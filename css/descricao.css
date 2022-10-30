@@ -2,45 +2,37 @@
   grid-area: descricao;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: baseline;
+  justify-content: center;
+  align-content: center;
+  margin-left: 200px;
+  gap: 24px;
 }
 
+/* teste */
+
 .descricao__nome {
-  display: grid;
   grid-area: descricao-nome;
-  place-items: center;
   font-size: 1.5em;
   letter-spacing: 0.34em;
   font-weight: 400;
-  transform: translate(20rem, 11rem);
 }
 
 .descricao__titulo {
-  display: grid;
-  grid-area: descricao-titulo;
-  place-items: center;
   font-size: 5rem;
   font-weight: 700;
   letter-spacing: 0.34em;
-  transform: translate(20rem, 16rem);
 }
 
 .descricao__text {
-  display: grid;
-  grid-area: descricao-text;
-  place-items: center;
   width: 650px;
   font-size: 1.5em;
   color: #585858;
   letter-spacing: 0.05em;
   font-weight: 400;
-  transform: translate(20.5rem, 17rem);
   line-height: 143.02%;
 }
 .descricao__button {
   display: grid;
-  grid-area: description-button;
   place-items: center;
   width: 382px;
   height: 100px;
@@ -51,7 +43,6 @@
   font-weight: 400;
   letter-spacing: 0.34em;
   color: white;
-  transform: translate(20rem, 23rem);
   transition: all 0.5s;
 }
 
